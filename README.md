@@ -6,3 +6,11 @@ Git Tao
 ```
 git add -u //will restore the peace
 ```
+
+### Forgot to switch branch before editing your files?
+```
+git add .
+git stash
+git branch 'branchname'
+git stash pop
+```
