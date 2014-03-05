@@ -11,6 +11,12 @@ git add -u //will restore the peace
 ```
 git add .
 git stash
-git branch 'branchname'
+git checkout 'branchname'
 git stash pop
+git commit
+```
+
+### Wrong remote tracked branch
+```
+git branch --set-upstream-to origin/my-default-fetch-branch
 ```
